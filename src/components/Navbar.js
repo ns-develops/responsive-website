@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitch } from '@fortawesome/free-brands-svg-icons';
@@ -21,13 +21,18 @@ function Navbar() {
     }
   };
 
+  useEffect(() => {
+  showButton()
+
+}, []);
+
   window.addEventListener('resize', showButton);
 
   return (
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
             Your company logo <FontAwesomeIcon icon={faTwitch} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
