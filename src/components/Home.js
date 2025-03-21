@@ -9,8 +9,8 @@ function Home() {
     <div>
         <HeroSection/>
         <Cards/>
-      <h1>Välkommen till hemsidan!</h1>
-      <p>Här är startsidan.</p>
+      <h1>Här ska formuläret börja också</h1>
+      <p></p>
     </div>
   );
 }
