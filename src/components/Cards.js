@@ -19,7 +19,7 @@ function Cards() {
         />
             <CardItem
         src="images/mockupscreen.jpg" 
-        text="Interactive Experience: See previous demo's examples from some of our customers. You will get hands-on by using the product as if you already have it."
+        text="Interactive Experience: Explore previous examples of how our product has been delivered to some of our most valued customers—cases."
         label="Cases"
         path="/cases"
         />
