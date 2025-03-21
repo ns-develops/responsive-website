@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';  // Se till att filvägen stämmer
+import Home from './components/Home';  
 import './App.css';
 
 
@@ -11,7 +11,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />  {/* Home-komponenten här */}
+          <Route path="/" element={<Home />} /> 
+          <Route path="/responsive-website" element={<Home />} />  
         </Routes>
       </Router>
     </>
