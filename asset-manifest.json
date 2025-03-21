@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/responsive-website/static/css/main.711fdeba.css",
-    "main.js": "/responsive-website/static/js/main.b3dd42bb.js",
+    "main.css": "/responsive-website/static/css/main.496fb90d.css",
+    "main.js": "/responsive-website/static/js/main.8bffb396.js",
     "static/media/design.jpg": "/responsive-website/static/media/design.79cd5e7947439e57066e.jpg",
     "static/media/mockupscreen.jpg": "/responsive-website/static/media/mockupscreen.9e3f1c8bc7637bce0a80.jpg",
     "static/media/phonedesign.jpg": "/responsive-website/static/media/phonedesign.838b53c82e0db3d1b948.jpg",
     "static/media/img2.jpg": "/responsive-website/static/media/img2.c5f193a9dcf7741ff316.jpg",
     "index.html": "/responsive-website/index.html",
-    "main.711fdeba.css.map": "/responsive-website/static/css/main.711fdeba.css.map",
-    "main.b3dd42bb.js.map": "/responsive-website/static/js/main.b3dd42bb.js.map"
+    "main.496fb90d.css.map": "/responsive-website/static/css/main.496fb90d.css.map",
+    "main.8bffb396.js.map": "/responsive-website/static/js/main.8bffb396.js.map"
   },
   "entrypoints": [
-    "static/css/main.711fdeba.css",
-    "static/js/main.b3dd42bb.js"
+    "static/css/main.496fb90d.css",
+    "static/js/main.8bffb396.js"
   ]
 }
