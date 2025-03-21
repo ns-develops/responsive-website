@@ -19,13 +19,13 @@ function Cards() {
         />
             <CardItem
         src="images/mockupscreen.jpg" 
-        text="This leades to demospages"
+        text="Interactive Experience: See previous demo's examples from some of our customers. You will get hands-on by using the product as if you already have it."
         label="Cases"
         path="/cases"
         />
             <CardItem
         src="images/news.jpg" 
-        text="This is News page"
+        text="Stay up to date with the latest updates, announcements, and news related to our products, services, and industry. In this section, we share important information that matters, including new features, upcoming events, and insights into what's happening in the world around us."
         label="News"
         path="/news"
         />
