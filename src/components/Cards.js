@@ -17,6 +17,19 @@ function Cards() {
         label="Building your app"
         path="/solutions"
         />
+            <CardItem
+        src="images/mockupscreen.jpg" 
+        text="This leades to demospages"
+        label="Cases"
+        path="/cases"
+        />
+            <CardItem
+        src="images/news.jpg" 
+        text="This is News page"
+        label="News"
+        path="/news"
+        />
+        
         </ul>
         </div>
         </div>
