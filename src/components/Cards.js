@@ -10,7 +10,7 @@ function Cards() {
         <div className="cards__wrapper">
         <ul className="cards__items">
         <CardItem
-        src="/design.jpg" 
+        src="images/design.jpg" 
         text="Building an app is a comprehensive process that 
         requires careful planning and collaboration. From concept workshop to launch, we ensure that your app is not 
         only functional but also delivers an excellent user experience."
