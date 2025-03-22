@@ -66,9 +66,10 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: black;
     box-sizing: border-box;
   }
+  /*#1f98f4 blue color */
   
   .cards__item__img {
     position: absolute;

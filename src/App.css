@@ -15,42 +15,98 @@
 }
 
 .solutions {
-  background-image: url('./components/images/mockupscreen.jpg'); /* Ensure this path is correct */
+  background-image: url('./components/images/solutions.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
-  
-  /* Make sure the div covers the entire screen */
+
   width: 100%;
-  height: 100vh;  /* Full viewport height */
+  height: 100vh;
+
   display: flex;
-  justify-content: center;  /* Center text horizontally */
-  align-items: center;  /* Center text vertically */
+  flex-direction: column;
+  justify-content: flex-start;  
+  align-items: center;  
+  padding-top: 50px;  
 }
+
+.solutions h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.solutions h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.solutions h1, .solutions h2 {
+  text-transform: capitalize;
+}
+
+
 .news {
-  background-image: url('./components/images/design.jpg'); 
+  background-color: black; 
+  background-image: url('');  /* Add your image URL if needed */
   background-position: center;
-  background-size: fill;
+  background-size: cover;  
   background-repeat: no-repeat;
-  color: #fff;
+  color: #fff;  
   font-size: 100px;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* Align content to the top of the container */
+  align-items: center;  /* Keep content centered horizontally */
+  padding-top: 50px;  /* Adjust this value to move content higher or lower */
 }
+
+.news h1 {
+  font-size: 40px;  
+  margin: 0;  
+}
+
+.news h2 {
+  font-size: 30px;  
+  margin-top: 20px;  
+}
+
+.news h1, .news h2 {
+  text-transform: capitalize;
+}
+
 
 .cases {
-  background-image: url('./components/images/phonedesign.jpg'); /* Ensure this path is correct */
+  background-image: url('./components/images/phonedesign2.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: white;
   
-  /* Make sure the div covers the entire screen */
   width: 100%;
-  height: 100vh;  /* Full viewport height */
+  height: 100vh;
+  
   display: flex;
-  justify-content: center;  /* Center text horizontally */
-  align-items: center;  /* Center text vertically */
+  flex-direction: column;
+  justify-content: flex-start;  
+  align-items: center;
+  padding-top: 50px;  
 }
 
+.cases h1 {
+  font-size: 40px;  
+  margin: 0;
+}
+
+.cases h2 {
+  font-size: 30px;  
+  margin-top: 20px; 
+}
+
+.cases h1, .cases h2 {
+  text-transform: capitalize;  
+}
