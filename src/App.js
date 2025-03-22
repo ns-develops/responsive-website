@@ -9,6 +9,7 @@ import Contact from './Contact';
 import Demo from './Demo';
 import './App.css';
 
+
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/news" element={<News />} />  
           <Route path="/contact" element={<Contact />} />  
           <Route path="/demo" element={<Demo />} />
+       
         </Routes>
       </Router>
     </>

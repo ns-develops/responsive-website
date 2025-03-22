@@ -1,23 +1,23 @@
 /* Contact Container */
 .contact-container {
-    position: absolute;            /* Placera container relativt till sin närmaste förfader */
-    top: 80px;                     /* Sätt detta värde till höjden på din navbar för att få kontaktformuläret direkt efter */
+    position: absolute;            
+    top: 80px;                     
     left: 0;
     width: 100%;
-    height: auto;                  /* Låt höjden anpassa sig automatiskt */
+    height: auto;             
     min-height: 75vh;
     background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("/public/images/design.jpg") center/cover no-repeat;
     color: white;
     display: flex;
-    flex-direction: column;        /* Organisera innehållet vertikalt */
-    justify-content: center;       /* Centrerar innehållet horisontellt */
-    align-items: center;           /* Centrerar innehållet vertikalt */
+    flex-direction: column;        
+    justify-content: center;       
+    align-items: center;          
     padding: 20px;
     overflow: hidden;
-    z-index: 9999;                 /* Se till att det ligger över andra element */
+    z-index: 9999;                
 }
 
-/* Företagsinformation */
+/* company info */
 .company-info h1 {
     font-size: 48px;
     font-weight: bold;
@@ -31,9 +31,9 @@
     text-align: center;
 }
 
-/* Kontaktformulär */
+/* contact form */
 .contact-form-container {
-    margin-top: 20px; /* Lägger till ett mellanrum mellan texten och formuläret */
+    margin-top: 20px; 
 }
 
 .contact-form-container h2 {

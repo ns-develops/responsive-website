@@ -11,7 +11,7 @@ export const Button = ({
   onClick, 
   buttonStyle,
   buttonSize,
-  to // Lägg till en "to"-prop för att definiera destinationen för länken
+  to 
 }) => {         
   const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];

@@ -60,8 +60,8 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          
-          {/* Uppdatera knappen så att den leder till /contact */}
+
+        
           {button && (
             <Button buttonStyle='btn--outline' to="/contact">
               CONTACT US
