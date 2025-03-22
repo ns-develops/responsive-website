@@ -15,7 +15,7 @@
 }
 
 .solutions {
-  background-image: url('./components/images/solutions.jpg');
+  background-image: url('./components/images/design.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
 
 .news {
   background-color: black; 
-  background-image: url('');  /* Add your image URL if needed */
+  background-image: url('./components/images/news.jpg');  /* Add your image URL if needed */
   background-position: center;
   background-size: cover;  
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@
 
 
 .cases {
-  background-image: url('./components/images/phonedesign2.png');
+  background-image: url('./components/images/mockupscreen.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
