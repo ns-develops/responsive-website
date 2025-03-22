@@ -6,6 +6,7 @@ import Solutions from './Solutions';
 import Cases from './Cases';
 import News from './News';
 import Contact from './Contact';
+import Demo from './Demo';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/cases" element={<Cases />} /> 
           <Route path="/news" element={<News />} />  
           <Route path="/contact" element={<Contact />} />  
+          <Route path="/demo" element={<Demo />} />
         </Routes>
       </Router>
     </>
