@@ -16,7 +16,8 @@
 }
 
 .solutions {
-  background-image: url('./components/images/design.jpg');
+  /*background-image: url('./components/images/coder.JPG');*/
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/coder.JPG") center/cover no-repeat;
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
@@ -49,7 +50,8 @@
 /* News - Sektion */
 .news {
   background-color: black;
-  background-image: url('./components/images/news.jpg');
+/*background-image: url('./components/images/news.jpg');*/
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/news.jpg") center/cover no-repeat;
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
@@ -185,76 +187,4 @@ body {
   .solutions h2, .news h2, .cases h2 {
     font-size: 20px; 
   }
-/* Contact Form Styling */
-.contact-form {
-  background-color: #f9f9f9;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 60px;  /* This matches the spacing between the "About Us" section and the top */
-}
-
-/* Additional styling for other form elements */
-.form-title {
-  font-size: 2rem;
-  color: #333;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.form-label {
-  font-size: 1.1rem;
-  color: #333;
-  margin-bottom: 8px;
-  display: block;
-}
-
-.form-input {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  color: #333;
-}
-
-.form-input:focus {
-  border-color: #007BFF;
-  outline: none;
-}
-
-.form-button {
-  padding: 12px 20px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  width: 100%;
-}
-
-.form-button:hover {
-  background-color: #0056b3;
-}
-
-@media (max-width: 768px) {
-  .contact-form {
-    padding: 20px;
-  }
-
-  .form-title {
-    font-size: 1.8rem;
-  }
-
-  .form-input {
-    font-size: 1rem;
-  }
-
-  .form-button {
-    font-size: 1rem;
-  }
-}
 }

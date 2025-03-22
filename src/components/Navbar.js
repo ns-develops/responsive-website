@@ -39,28 +39,34 @@ function Navbar() {
             <FontAwesomeIcon icon={click ? faTimes : faBars} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-            About
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/cases' className='nav-links' onClick={closeMobileMenu}>
-            Cases
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/solutions' className='nav-links' onClick={closeMobileMenu}>
-            Solutions
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/news' className='nav-links' onClick={closeMobileMenu}>
-            News
-            </Link>
-          </li>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/cases' className='nav-links' onClick={closeMobileMenu}>
+                Cases
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/solutions' className='nav-links' onClick={closeMobileMenu}>
+                Solutions
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/news' className='nav-links' onClick={closeMobileMenu}>
+                News
+              </Link>
+            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>CONTACT US</Button>}
+          
+          {/* Uppdatera knappen så att den leder till /contact */}
+          {button && (
+            <Button buttonStyle='btn--outline' to="/contact">
+              CONTACT US
+            </Button>
+          )}
         </div>
       </nav>
     </>

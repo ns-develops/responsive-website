@@ -1,0 +1,83 @@
+/* Contact Container */
+.contact-container {
+    position: absolute;            /* Placera container relativt till sin närmaste förfader */
+    top: 80px;                     /* Sätt detta värde till höjden på din navbar för att få kontaktformuläret direkt efter */
+    left: 0;
+    width: 100%;
+    height: auto;                  /* Låt höjden anpassa sig automatiskt */
+    min-height: 75vh;
+    background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("/public/images/design.jpg") center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;        /* Organisera innehållet vertikalt */
+    justify-content: center;       /* Centrerar innehållet horisontellt */
+    align-items: center;           /* Centrerar innehållet vertikalt */
+    padding: 20px;
+    overflow: hidden;
+    z-index: 9999;                 /* Se till att det ligger över andra element */
+}
+
+/* Företagsinformation */
+.company-info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company-info p {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Kontaktformulär */
+.contact-form-container {
+    margin-top: 20px; /* Lägger till ett mellanrum mellan texten och formuläret */
+}
+
+.contact-form-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-form label {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button.contact-btn {
+    font-size: 24px;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*.contact-form button.contact-btn:hover {
+    background-color: #010a13;
+}*/
+
+
+.contact-title{
+    font-size: 4.2rem;
+}
+.contact-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}
