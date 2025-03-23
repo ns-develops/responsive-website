@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import HeroSection from './HeroSection';
 import Cards from './Cards';
+import Contact from '../Contact';
 
 
 function Home() {
@@ -9,7 +10,7 @@ function Home() {
     <div className="home-container">
       <HeroSection/>
       <Cards/>
- 
+
     
       
       <section className="about-us">
@@ -25,9 +26,8 @@ function Home() {
       Our goal is to make the digital world simpler and more accessible for everyone. We are here to help you navigate a fast-changing digital landscape and create results that make a difference for your brand.
     </p>
 </section>
+</div>
 
-    </div>
-  );
-}
+  )}
 
 export default Home;

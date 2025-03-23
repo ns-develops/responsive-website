@@ -18,7 +18,7 @@ function Cards() {
         path="/solutions"
         />
             <CardItem
-        src="images/mockupscreen.jpg" 
+        src="images/mockupscreen.jpg"
         text="Interactive Experience: Explore previous examples of how our product has been delivered to some of our most valued customers—cases."
         label="Cases"
         path="/cases"
