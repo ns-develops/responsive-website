@@ -6,8 +6,8 @@ const Demo = () => {
     <div className="demo">
       <iframe
         className="video-background"
-        width="100%"         // Gör videon responsiv genom att använda 100% bredd
-        height="100%"        // Gör videon responsiv genom att använda 100% höjd
+        width="100%"  // Makes video width 100%
+        height="100%" // Makes video height 100%
         src="https://www.youtube.com/embed/yKCAna4SrOA?autoplay=1&loop=1&playlist=yKCAna4SrOA"
         title="Demo Video"
         allow="autoplay; encrypted-media"
