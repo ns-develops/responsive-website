@@ -210,35 +210,35 @@
 /* Image container under navbaren */
 .image-container {
   width: 100%;
-  text-align: center; /* Centrera bilden horisontellt */
-  margin-top: 20px; /* Justera mellanrum från navbaren */
+  text-align: center;
+  margin-top: 20px; 
 }
 
 .centered-image {
-  max-width: 100%; /* Gör så att bilden inte går utanför bredden */
-  height: auto; /* Behåll bildens proportioner */
-  display: inline-block; /* Gör bilden till en inline-block för att den ska kunna centreras */
+  max-width: 100%; 
+  height: auto; 
+  display: inline-block; 
 }
 /* Case Box Container - CSS Grid Layout */
 .cases-container {
-  display: grid;  /* Använd grid layout istället för flex */
-  grid-template-columns: repeat(2, 1fr);  /* Skapa två kolumner med lika stor bredd */
-  gap: 1.5rem;  /* Mellanrum mellan boxarna */
+  display: grid;  
+  grid-template-columns: repeat(2, 1fr);  
+  gap: 1.5rem; 
   padding: 2rem 0;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  perspective: 1500px; /* Lägg till perspektiv för 3D-effekt */
-  align-items: center; /* Centrera boxarna vertikalt om det behövs */
+  perspective: 1500px; 
+  align-items: center; 
 }
 
-/* Stilen för varje kub (utan rotation) */
+
 .case-box {
   background-color: #fff;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.2); /* Graffiti-liknande skugga */
-  width: 100%; /* Gör boxarna 100% bredd av tillgängligt utrymme */
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.2); /*
+  width: 100%; /* 
   height: 200px; /* Höjd på kuben */
   border: 2px solid #ddd;
   box-sizing: border-box;
@@ -260,27 +260,27 @@
 .case-box p {
   font-size: 1rem;
   color: #555;
-  transform: translateZ(40px); /* Skapar illusionen av att texten ligger framåt */
+  transform: translateZ(40px); 
 }
 
 /* Responsiv design */
 @media (max-width: 768px) {
   .cases-container {
-    grid-template-columns: repeat(2, 1fr);  /* För mindre skärmar kan vi hålla 2 boxar per rad */
+    grid-template-columns: repeat(2, 1fr);  
   }
 
   .case-box {
-    width: 100%;  /* Gör boxarna 100% breda på mindre skärmar */
+    width: 100%;  
   }
 }
 
 @media (max-width: 480px) {
   .cases-container {
-    grid-template-columns: 1fr; /* För mycket små skärmar, gör en kolumn */
+    grid-template-columns: 1fr; 
   }
 
   .case-box {
-    width: 100%;  /* Gör boxarna 100% breda på mycket små skärmar */
+    width: 100%; 
   }
 }
 
