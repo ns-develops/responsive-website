@@ -11,7 +11,7 @@ function Demo() {
           src="https://www.youtube.com/embed/yKCAna4SrOA?autoplay=1&loop=1&playlist=yKCAna4SrOA" 
           allow="autoplay; fullscreen" 
           allowFullScreen
-          style={{ border: 'none' }} // Remove the frameborder using CSS
+          style={{ border: 'none' }}
         ></iframe>
       </div>
       <div className="content">
