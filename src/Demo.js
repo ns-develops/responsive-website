@@ -1,4 +1,3 @@
-// Demo.js
 import React from 'react';
 import './Demo.css';  
 
@@ -10,9 +9,9 @@ function Demo() {
           width="100%" 
           height="100%" 
           src="https://www.youtube.com/embed/yKCAna4SrOA?autoplay=1&loop=1&playlist=yKCAna4SrOA" 
-          frameBorder="0" 
           allow="autoplay; fullscreen" 
           allowFullScreen
+          style={{ border: 'none' }} // Remove the frameborder using CSS
         ></iframe>
       </div>
       <div className="content">
@@ -24,4 +23,5 @@ function Demo() {
 }
 
 export default Demo;
+
 
