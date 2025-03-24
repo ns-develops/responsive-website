@@ -145,7 +145,7 @@
 
 /* Cases */
 .cases {
-  background-image: url('./components/images/mockupscreen.jpg');
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/mockupscreen.jpg") center/cover no-repeat;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,6 +175,114 @@
   text-transform: capitalize;
 }
 
+/* Cases */
+.cases {
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/mockupscreen.jpg") center/cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.cases h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.cases h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.cases h1, .cases h2 {
+  text-transform: capitalize;
+}
+
+/* Image container under navbaren */
+.image-container {
+  width: 100%;
+  text-align: center; /* Centrera bilden horisontellt */
+  margin-top: 20px; /* Justera mellanrum från navbaren */
+}
+
+.centered-image {
+  max-width: 100%; /* Gör så att bilden inte går utanför bredden */
+  height: auto; /* Behåll bildens proportioner */
+  display: inline-block; /* Gör bilden till en inline-block för att den ska kunna centreras */
+}
+/* Case Box Container - CSS Grid Layout */
+.cases-container {
+  display: grid;  /* Använd grid layout istället för flex */
+  grid-template-columns: repeat(2, 1fr);  /* Skapa två kolumner med lika stor bredd */
+  gap: 1.5rem;  /* Mellanrum mellan boxarna */
+  padding: 2rem 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  perspective: 1500px; /* Lägg till perspektiv för 3D-effekt */
+  align-items: center; /* Centrera boxarna vertikalt om det behövs */
+}
+
+/* Stilen för varje kub (utan rotation) */
+.case-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.2); /* Graffiti-liknande skugga */
+  width: 100%; /* Gör boxarna 100% bredd av tillgängligt utrymme */
+  height: 200px; /* Höjd på kuben */
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+
+  /* Skapar en 3D-effekt med en liten lutning (utan hover-effekt) */
+  transform-style: preserve-3d;
+}
+
+/* Rubrik i kuben */
+.case-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+  transform: translateZ(50px); /* Skapar illusionen av att texten ligger framåt */
+}
+
+/* Beskrivning i kuben */
+.case-box p {
+  font-size: 1rem;
+  color: #555;
+  transform: translateZ(40px); /* Skapar illusionen av att texten ligger framåt */
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+  .cases-container {
+    grid-template-columns: repeat(2, 1fr);  /* För mindre skärmar kan vi hålla 2 boxar per rad */
+  }
+
+  .case-box {
+    width: 100%;  /* Gör boxarna 100% breda på mindre skärmar */
+  }
+}
+
+@media (max-width: 480px) {
+  .cases-container {
+    grid-template-columns: 1fr; /* För mycket små skärmar, gör en kolumn */
+  }
+
+  .case-box {
+    width: 100%;  /* Gör boxarna 100% breda på mycket små skärmar */
+  }
+}
 
 body {
   font-family: 'Arial', sans-serif;
