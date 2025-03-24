@@ -1,18 +1,16 @@
 import React from 'react';
 import './Demo.css';
 
+// Importera din lokala video
+import demoVideo from './components/images/videotest.mp4';
+
 const Demo = () => {
   return (
     <div className="demo">
-      <iframe
-        className="video-background"
-        width="100%"  // Makes video width 100%
-        height="100%" // Makes video height 100%
-        src="https://www.youtube.com/embed/yKCAna4SrOA?autoplay=1&loop=1&playlist=yKCAna4SrOA"
-        title="Demo Video"
-        allow="autoplay; encrypted-media"
-        allowFullScreen
-      ></iframe>
+      <video className="video-background" autoPlay loop muted>
+        <source src={demoVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   );
 };
