@@ -1,16 +1,34 @@
-.demo {
-    position: relative;
-    width: 100%;
-    height: 100vh; 
-    overflow: hidden;
-  }
-  
-  .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    z-index: -1; 
-  }
+/* Demo.css */
+.demo-container {
+  position: relative;
+  height: 100vh;  
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;  
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;  
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
