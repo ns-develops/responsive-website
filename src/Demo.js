@@ -1,7 +1,5 @@
 import React from 'react';
 import './Demo.css';
-
-// Importera din lokala video
 import demoVideo from './components/images/videotest.mp4';
 
 const Demo = () => {

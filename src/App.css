@@ -129,11 +129,13 @@
   padding-top: 50px;
 }
 
-.news h1 {
-  font-size: 40px;
-  margin: 0;
-}
 
+.news h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  text-align: center;  
+  font-size: 3rem; 
+  margin-bottom: 20px;  
+}
 .news h2 {
   font-size: 30px;
   margin-top: 20px;
@@ -142,6 +144,61 @@
 .news h1, .news h2 {
   text-transform: capitalize;
 }
+
+/* CSS för svarta boxar */
+.black-box {
+  background-color: #000; 
+  color: white;
+  padding: 20px; 
+  border-radius: 0; /* hörn */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 20px; 
+  text-align: center; 
+  width: 1700px; 
+
+}
+
+/* Rubriker i boxarna */
+.black-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Text i boxarna */
+.black-box p {
+  font-size: 1rem;
+}
+
+/* Flexbox container */
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 0 20px; 
+  align-items: center; 
+  text-align: center; 
+}
+
+
+.black-box {
+  flex: 0 1 calc(50% - 20px);  
+  box-sizing: border-box;
+  
+}
+
+/* Responsiv design för små skärmar */
+@media (max-width: 768px) {
+  .black-box {
+    flex: 0 1 100%; 
+  }
+}
+
+.news {
+  text-align: center;  
+  padding: 20px; 
+}
+
 
 /* Cases */
 .cases {
@@ -253,7 +310,7 @@
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: #333;
-  transform: translateZ(50px); /* Skapar illusionen av att texten ligger framåt */
+  transform: translateZ(50px); 
 }
 
 /* Beskrivning i kuben */
