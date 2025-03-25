@@ -8,7 +8,7 @@ function Demo() {
         <iframe 
           width="100%" 
           height="100%" 
-          src="https://www.youtube.com/embed/yKCAna4SrOA?autoplay=1&loop=1&playlist=yKCAna4SrOA" 
+          src="" 
           allow="autoplay; fullscreen" 
           allowFullScreen
           style={{ border: 'none' }}
