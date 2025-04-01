@@ -1,8 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
 import { Button } from './Button'; 
-import { Link } from 'react-router-dom'; 
-import img2 from './images/img2.jpg';
+import img2 from './images/img2.jpg'; // Din bild
 
 function HeroSection() {
   return (
@@ -12,23 +11,25 @@ function HeroSection() {
       <p>What are you waiting for?</p>
       <div className="hero-btns">
       
-        <Link to="/contact">
-          <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-            BUSINESS INQUIRY
-          </Button>
-        </Link>
-
-        <Link to="/demo">
+        {/* Business Inquiry button goes to /contact */}
         <Button 
-        className="btns" 
-        buttonStyle="btn--primary" 
-        buttonSize="btn--large" 
-        onClick={() => window.location.href = '/demo'}>
-                                                    
-  WATCH DEMO'S <i className="far fa-play-circle" />
-</Button>
+          className="btns" 
+          buttonStyle="btn--outline" 
+          buttonSize="btn--large" 
+          to="/contact"
+        >
+          BUSINESS INQUIRY
+        </Button>
 
-        </Link>
+        {/* Watch Demo button goes to /demo */}
+        <Button 
+          className="btns" 
+          buttonStyle="btn--primary" 
+          buttonSize="btn--large" 
+          to="/demo"
+        >
+          WATCH DEMO'S <i className="far fa-play-circle" />
+        </Button>
       </div>
     </div>
   );
