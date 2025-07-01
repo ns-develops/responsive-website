@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/responsive-website/static/css/main.5cccac88.css",
-    "main.js": "/responsive-website/static/js/main.86389ba2.js",
-    "static/media/news.jpg": "/responsive-website/static/media/news.c8d6b56af6a5e76a7187.jpg",
-    "static/media/design.jpg": "/responsive-website/static/media/design.79cd5e7947439e57066e.jpg",
-    "static/media/coder.JPG": "/responsive-website/static/media/coder.f096af376203ffcf347a.JPG",
-    "static/media/mockupscreen.jpg": "/responsive-website/static/media/mockupscreen.9e3f1c8bc7637bce0a80.jpg",
+    "main.css": "/responsive-website/static/css/main.4c988bce.css",
+    "main.js": "/responsive-website/static/js/main.66bf3b04.js",
+    "static/media/city.jpg": "/responsive-website/static/media/city.2f37d377bfcde7f37ce2.jpg",
+    "static/media/news.jpg": "/responsive-website/static/media/news.a88aee54da5dab5c8748.jpg",
+    "static/media/hike.jpg": "/responsive-website/static/media/hike.b72a013f711c6cdf5b19.jpg",
+    "static/media/beach.jpg": "/responsive-website/static/media/beach.5f2f89c274f89796a036.jpg",
     "static/media/img2.jpg": "/responsive-website/static/media/img2.c5f193a9dcf7741ff316.jpg",
-    "static/media/cases3.png": "/responsive-website/static/media/cases3.2707bd38d1f469f4f183.png",
+    "static/media/design.jpg": "/responsive-website/static/media/design.9ba31ba0743eb5c40087.jpg",
+    "static/media/solutions.JPG": "/responsive-website/static/media/solutions.db430caf67f805167bee.JPG",
     "index.html": "/responsive-website/index.html",
-    "main.5cccac88.css.map": "/responsive-website/static/css/main.5cccac88.css.map",
-    "main.86389ba2.js.map": "/responsive-website/static/js/main.86389ba2.js.map"
+    "main.4c988bce.css.map": "/responsive-website/static/css/main.4c988bce.css.map",
+    "main.66bf3b04.js.map": "/responsive-website/static/js/main.66bf3b04.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cccac88.css",
-    "static/js/main.86389ba2.js"
+    "static/css/main.4c988bce.css",
+    "static/js/main.66bf3b04.js"
   ]
 }
