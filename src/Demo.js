@@ -6,12 +6,15 @@ function Demo() {
     <div className="demo-container">
       <div className="video-background">
         <iframe 
-          width="100%" 
-          height="100%" 
-          src="https://www.youtube.com/embed/yKCAna4SrOA?autoplay=1&loop=1&playlist=yKCAna4SrOA" 
-          allow="autoplay; fullscreen" 
-          allowFullScreen
-          style={{ border: 'none' }} // Remove the frameborder using CSS
+          width="966" 
+          height="543" 
+          src="https://www.youtube.com/embed/eBeRl1WgQi4?autoplay=1&loop=1&playlist=eBeRl1WgQi4" 
+          title="tour and travel promotional video" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerPolicy="strict-origin-when-cross-origin" 
+          allowFullScreen 
+          style={{ border: 'none' }}
         ></iframe>
       </div>
       <div className="content">

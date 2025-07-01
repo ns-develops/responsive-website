@@ -4,30 +4,37 @@ import HeroSection from './HeroSection';
 import Cards from './Cards';
 import Contact from '../Contact';
 
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function Home() {
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+
   return (
     <div className="home-container">
-      <HeroSection/>
-      <Cards/>
+      <HeroSection />
+      <Cards />
 
-    
-      
-      <section className="about-us">
-    <h1 className="section-title">About Us</h1>
-    <p className="section-text">
-      We are a new and innovative digital agency with a passion for creating digital solutions that make a difference.
-      We combine creativity, technology, and strategy to help businesses grow and reach their goals in the digital world.
-      We understand that every business is unique, and we work closely with our clients to create tailored solutions that fit their specific needs.
-      We believe in long-term partnerships and strive to build strong relationships based on trust and transparent communication.
-      With us, you don’t just get an agency; you get an engaged partner who wants to see your business succeed.
-    </p>
-    <p className="section-text">
-      Our goal is to make the digital world simpler and more accessible for everyone. We are here to help you navigate a fast-changing digital landscape and create results that make a difference for your brand.
-    </p>
-</section>
-</div>
-
-  )}
+      <motion.section
+        ref={ref}
+        className="about-us"
+        initial={{ opacity: 0, y: 50 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
+      >
+        <h1 className="section-title">About Us</h1>
+        <p className="section-text">
+          Welcome to our travel agency – your gateway to unforgettable journeys around the world. Whether you're seeking thrilling hikes through majestic mountains, exploring the vast dunes of the Sahara, or immersing yourself in the heartbeat of vibrant cities, we craft the perfect travel packages for every type of adventurer.
+        </p>
+        <p className="section-text">
+          Our mission is to make travel easy, inspiring, and personal. We take care of all the details – flights, accommodations, guided tours, and unique experiences – so you can focus on enjoying every moment. From solo escapes to group expeditions, we offer custom packages that match your interests, budget, and travel dreams.
+        </p>
+        <p className="section-text">
+          With years of experience and a passion for discovery, we are here to help you explore the world your way. Let us turn your travel ideas into reality – one journey at a time.
+        </p>
+      </motion.section>
+    </div>
+  );
+}
 
 export default Home;

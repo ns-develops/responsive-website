@@ -7,20 +7,20 @@ export default function Solutions() {
             <h1>Solutions</h1>
             <div className="solutions-container">
                 <div className="solution-box">
-                    <h2>Web Design</h2>
-                    <p>We create modern and responsive websites to enhance your online presence.</p>
+                    <h2>Planning</h2>
+                    <p>We help you carefully plan your travel with experience and guidenece that ensure a smooth travel process and successful journey.</p>
                 </div>
                 <div className="solution-box">
-                    <h2>Apps</h2>
-                    <p>We build mobile apps that provide great user experiences on both iOS and Android.</p>
+                    <h2>Groups</h2>
+                    <p>We create travel solutions that bring people together, enhancing collaboration and shared experiences.</p>
                 </div>
                 <div className="solution-box">
-                    <h2>MVP</h2>
-                    <p>We help you launch your product quickly with a minimum viable product that proves your concept.</p>
+                    <h2>Solo Travel</h2>
+                    <p>Focus on your journey with our tailored solutions supporting unique and individual travel adventures.</p>
                 </div>
                 <div className="solution-box">
-                    <h2>UI/UX Design</h2>
-                    <p>We design beautiful user interfaces and create intuitive user experiences to engage your audience.</p>
+                    <h2>Insurance</h2>
+                    <p>We package saftey, friendly and secure travel solutions in insurance that provide peace of mind and easy management.</p>
                 </div>
             </div>
         </div>

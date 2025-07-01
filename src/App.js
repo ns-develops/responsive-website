@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} /> 
           <Route path="/react-responsive-website" element={<Home />} />  
           <Route path="/solutions" element={<Solutions />} />  
-          <Route path="/cases" element={<Cases />} /> 
+          <Route path="/community" element={<Cases />} /> 
           <Route path="/news" element={<News />} />  
           <Route path="/contact" element={<Contact />} />  
           <Route path="/demo" element={<Demo />} />

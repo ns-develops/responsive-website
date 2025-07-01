@@ -32,9 +32,10 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-            Your company logo <FontAwesomeIcon icon={faTwitch} />
-          </Link>
+        <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
+  Travel
+  {/* <FontAwesomeIcon icon={faTwitch} /> */}
+</Link>
           <div className="menu-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={click ? faTimes : faBars} />
           </div>
@@ -45,8 +46,8 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/cases' className='nav-links' onClick={closeMobileMenu}>
-                Cases
+              <Link to='/community' className='nav-links' onClick={closeMobileMenu}>
+                Community
               </Link>
             </li>
             <li className='nav-item'>

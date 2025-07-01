@@ -12,11 +12,11 @@ const News = () => {
         </div>
         <div className="black-box">
           <h2>News 2</h2>
-          <p>Our team recently released a new feature that allows users to customize their experience even further.</p>
+          <p>Our team is growing.</p>
         </div>
         <div className="black-box">
           <h2>News 3</h2>
-          <p>We've expanded our global presence! Learn about the new markets we are entering and how this benefits our customers.</p>
+          <p>We've expanded our global presence! Learn about the new markets we are entering and how this benefits you as out customer.</p>
         </div>
         </div>
     </div>

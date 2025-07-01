@@ -16,8 +16,8 @@
 }
 
 .solutions {
-  /*background-image: url('./components/images/coder.JPG');*/
-  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/coder.JPG") center/cover no-repeat;
+  /*background-image: url('./components/images/solutions.JPG');*/
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/solutions.JPG") center/cover no-repeat;
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@
 /* News */
 .news {
   background-color: black;
-/*background-image: url('./components/images/news.jpg');*/
+/*background-image: url('./components/images/city.jpg');*/
   background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/news.jpg") center/cover no-repeat;
   background-position: center;
   background-size: cover; 
@@ -202,7 +202,7 @@
 
 /* Cases */
 .cases {
-  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/mockupscreen.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/beach.jpg") center/cover no-repeat;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@
 
 /* Cases */
 .cases {
-  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/mockupscreen.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/hike.jpg") center/cover no-repeat;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

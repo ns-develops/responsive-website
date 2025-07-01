@@ -2,7 +2,7 @@ import React from 'react';
 import './HeroSection.css';
 import { Button } from './Button'; 
 import { Link } from 'react-router-dom'; 
-import img2 from './images/img2.jpg';
+import img2 from './images/beach.jpg';
 
 function HeroSection() {
   return (
@@ -14,7 +14,7 @@ function HeroSection() {
       
         <Link to="/contact">
           <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-            BUSINESS INQUIRY
+            GROUP TRAVEL
           </Button>
         </Link>
 
@@ -25,7 +25,7 @@ function HeroSection() {
         buttonSize="btn--large" 
         onClick={() => window.location.href = '/demo'}>
                                                     
-  WATCH DEMO'S <i className="far fa-play-circle" />
+  WATCH DEMO <i className="far fa-play-circle" />
 </Button>
 
         </Link>

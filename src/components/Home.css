@@ -1,0 +1,10 @@
+.about-us {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 60px auto;
+    max-width: 900px; /* Håller texten centrerad och begränsad i bredd */
+    text-align: center;
+  }
+  
