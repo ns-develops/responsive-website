@@ -30,7 +30,7 @@
   }
   
   .navbar-logo {
-    color: black; /* ändrat från vitt till svart */
+    color: black; 
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -43,7 +43,7 @@
   .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
-    color: black; /* ikonen svart */
+    color: black; 
   }
   
   .nav-menu {
@@ -62,7 +62,7 @@
   }
   
   .nav-links {
-    color: black; /* ändrat från vitt till svart */
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -71,19 +71,19 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid black; /* ändrat från vitt till svart */
+    border-bottom: 4px solid black;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: black; /* ändrat från vitt till svart */
+    color: black; 
   }
   
   .nav-links-mobile {
     display: none;
-    color: black; /* svart text för mobilmenyn */
+    color: black; 
     background-color: transparent;
-    border: 1px solid black; /* svart kant */
+    border: 1px solid black;
     padding: 14px 20px;
     text-decoration: none;
     font-size: 1.5rem;
@@ -95,8 +95,8 @@
   }
   
   .nav-links-mobile:hover {
-    background: black; /* svart bakgrund vid hover */
-    color: white; /* vit text vid hover */
+    background: black; 
+    color: white;
     transition: 250ms;
   }
   
@@ -122,7 +122,7 @@
     }
   
     .nav-menu.active {
-      background: #f5f5f5; /* ljus bakgrund för meny på mobil */
+      background: #f5f5f5;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -134,7 +134,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
-      color: black; /* logon svart */
+      color: black; 
     }
   
     .menu-icon {
@@ -145,16 +145,16 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: black; /* hamburgermenyikon svart */
+      color: black; 
     }
   
     .fa-times {
-      color: black; /* stäng-ikonen svart */
+      color: black;
       font-size: 2rem;
     }
   
     .nav-links {
-      color: black; /* svarta länkar i mobilmeny */
+      color: black; 
       display: flex;
       align-items: center;
       text-decoration: none;

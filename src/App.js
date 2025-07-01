@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} /> 
-          <Route path="/react-responsive-website" element={<Home />} />  
+          <Route path="/responsive-website" element={<Home />} />  
           <Route path="/solutions" element={<Solutions />} />  
           <Route path="/community" element={<Cases />} /> 
           <Route path="/news" element={<News />} />  

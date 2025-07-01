@@ -145,7 +145,7 @@
   text-transform: capitalize;
 }
 
-/* CSS för svarta boxar */
+
 .black-box {
   background-color: #000; 
   color: white;
@@ -158,18 +158,18 @@
 
 }
 
-/* Rubriker i boxarna */
+
 .black-box h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-/* Text i boxarna */
+
 .black-box p {
   font-size: 1rem;
 }
 
-/* Flexbox container */
+
 .news-container {
   display: flex;
   flex-wrap: wrap;
@@ -200,7 +200,7 @@
 }
 
 
-/* Cases */
+
 .cases {
   background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/beach.jpg") center/cover no-repeat;
   background-position: center;
@@ -232,7 +232,7 @@
   text-transform: capitalize;
 }
 
-/* Cases */
+
 .cases {
   background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(0, 0, 0, 0.9)), url("./components/images/hike.jpg") center/cover no-repeat;
   background-position: center;
@@ -264,7 +264,7 @@
   text-transform: capitalize;
 }
 
-/* Image container under navbaren */
+
 .image-container {
   width: 100%;
   text-align: center;
@@ -276,7 +276,7 @@
   height: auto; 
   display: inline-block; 
 }
-/* Case Box Container - CSS Grid Layout */
+
 .cases-container {
   display: grid;  
   grid-template-columns: repeat(2, 1fr);  
@@ -301,7 +301,6 @@
   box-sizing: border-box;
   text-align: center;
 
-  /* Skapar en 3D-effekt med en liten lutning (utan hover-effekt) */
   transform-style: preserve-3d;
 }
 

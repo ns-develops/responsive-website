@@ -1,11 +1,11 @@
 import React from "react";
-import './App.css'; // Make sure this file is correctly imported
+import './App.css'; 
 import './Contact.css';
 
 export default function Contact() {
   return (
     <div className="contact-container">
-      {/* Företagsinformation */}
+     
       <div className="company-info">
         <h1>Your Company Name</h1>
         <p><strong>Address:</strong> Example Street 123, 456 78 City, Country</p>
@@ -13,7 +13,7 @@ export default function Contact() {
         <p><strong>Email:</strong> contact@yourcompany.com</p>
       </div>
 
-      {/* Kontaktformulär */}
+    
       <div className="contact-form-container">
         <h2>Contact Us</h2>
         <form className="contact-form">
